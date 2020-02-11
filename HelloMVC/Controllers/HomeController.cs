@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace HelloMVC.Controllers
 {
-    public class HomeController
+    public class HomeController:Controller
     {
         public ViewResult Index()
         {
-            return null;
+            return View();
         }
     }
 }
